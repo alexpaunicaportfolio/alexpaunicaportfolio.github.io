@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Etc Stylesheets for navigation, lightbox and others taken from online resources. -->
+    <link rel="stylesheet" href="lightbox/dist/css/lightbox.css"/>
+    <link rel="stylesheet" href="css/animate.min.css"/>
+    <link rel="stylesheet" href="css/ionicons.min.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <!-- My Stylesheet and code -->
+    <link rel="stylesheet" href="css/mystyles.css" />
+    <script type="text/javascript" src="js/myjavascript.js"></script>
+
+    <title>Alex P Portfolio</title>
+  </head>
+  <body>
+  	<nav id="topNav" class="navbar navbar-default navbar-fixed-top affix-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html"><i class="ion-ios-analytics-outline"></i>Alex Paunica</a>
+            </div>
+            <div class="navbar-collapse collapse" id="bs-navbar" aria-expanded="false" style="height: 1px;" role="banner">
+                <ul class="nav navbar-nav">
+                    <li class="">
+                        <a class="page-scroll" href="index.html">Home</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="resume.html">Curriculum Vitae</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" data-toggle="modal" title="My final project for coursera's web design course." href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="content">
+<ul class="cb-slideshow">
+            <li><span>Image 01</span><div><h3></h3></div></li>
+            <li><span>Image 02</span><div><h3></h3></div></li>
+            <li><span>Image 03</span><div><h3></h3></div></li>
+            <li><span>Image 04</span><div><h3></h3></div></li>
+            <li><span>Image 05</span><div><h3></h3></div></li>
+            <li><span>Image 06</span><div><h3></h3></div></li>
+        </ul>
+
+
+<div class="wrapper">
+    <div id="coversection" class="content-wrapper">
+        <div>
+            <h2>Alexandru Paunica</h2> 
+            <p>I spent my summer doing an online course in web design to see how far I could get and contribute to my skills. I created this website to test out my skills and host my cv. This website was created using Twitter Bootstrap 3, pulling together features I liked from several free templates and resources I found throughout the internet. This page has several of the "extras" specified to demonstrate my progress.</p></div>
+    </div>
+</div>
+
+<div class="wrapper">
+
+   
+    <div class="content-wrapper" style="margin-top: 5%">
+        <div>
+            <h2>Extra 1: Google Calendar</h2>
+            <p>I embedded a google calendar here.</p>  
+            <div class="responsiveCal">
+                <iframe src="https://calendar.google.com/calendar/embed?src=en.uk%23holiday%40group.v.calendar.google.com&ctz=Europe%2FBrussels" style="border: 0" width="800" height="600"></iframe>
+            </div>
+        </div>
+</div>
+</div>
+
+<div class="wrapper">
+    <div class="content-wrapper" style="margin-top: 5%">
+        <div>
+            <h2>Extra 2: Javascript</h2> 
+            <p>A simple email confirmation</p></div>
+        <form>
+          <label>Preferred email address:
+                <input type="email" id="email_addr" class="form-control" name="email1" placeholder= "example@gmail.com" required></label>
+
+            <label>Repeat email address:
+                <input type="email" id="email_repeat" class="form-control" name="email2" required onchange="return check()"></label>
+
+          <input class="btn btn-primary" type = 'submit' value = "Continue" onclick = "return check();">
+        </form>  
+    </div>
+</div>
+
+
+<div class="wrapper">
+    <div class="content-wrapper" style="margin-top: 5%">
+        <div>
+            <h2>Extra 3: Lightbox Plugin</h2>
+            <p>Click on the images below to see the lightbox plugin in action</p>
+            <div id=imagesbtscontainer class="container" style="max-width: 100%">
+            <div id="imagebtsrow" class="row" style="max-width: 100%; text-align: center; margin:0 auto;">
+                <a href="images/beach.jpg" data-lightbox="image-1">
+                    <img class="col-sm-6 col-md-4 img-thumbnail" src="images/beach.jpg" alt="beach">
+                </a>
+                <a href="images/city.jpg" data-lightbox="image-1">
+                    <img class="col-sm-6 col-md-4 img-thumbnail" src="images/city.jpg" alt="city">
+                </a>
+                <a href="images/bike.jpg" data-lightbox="image-1">
+                    <img class="col-sm-6 col-md-4 img-thumbnail" src="images/bike.jpg" alt="bike">
+                </a>
+                <a href="images/music.jpg" data-lightbox="image-1">
+                    <img class="col-sm-6 col-md-4 img-thumbnail" src="images/music.jpg" alt="music">
+                </a>
+                <a href="images/lake.jpg" data-lightbox="image-1">
+                    <img  class="col-sm-6 col-md-4 img-thumbnail" src="images/lake.jpg" alt="lake">
+                </a>
+                <a href="images/colors.jpg" data-lightbox="image-1">
+                    <img class="col-sm-6 col-md-4 img-thumbnail" src="images/colors.jpg" alt="colors">
+                </a>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</main>
+
+<footer class="footer">
+    <h2>Extra 4: Sticky Footer</h2>
+    <p>This footer stays on the bottom of the page regardless of how much content is added.</p>
+</footer>
+
+    <!-- Bootstrap, Jquery and etc scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="lightbox/dist/js/lightbox.js"></script>
+  </body>
+</html>
